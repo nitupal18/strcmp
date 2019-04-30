@@ -1,0 +1,15 @@
+# include<stdio.h>
+void main()
+{
+int i;
+char S[30],P[30];
+printf("Enter the elements of S\n");
+gets(S);
+printf("Enter the elements of P\n");
+gets(P);
+i=strcmp(S,P);
+printf("The comparison is %d",i);
+}
+
+
+
